@@ -7,14 +7,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
     <title>Daily Life Tools</title>
   </head>
   <body>
@@ -54,8 +54,81 @@
   </header><!-- End Header -->
     
 <!-- Insta DP Section -->
-<section id="">
-
+<section id="tools">
+  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <div class="nav-icon"><i class="bi bi-person-circle"></i></div>
+      <button class="nav-link active" id="pills-dp-tab" data-bs-toggle="pill" data-bs-target="#pills-dp" type="button" role="tab" aria-controls="pills-dp" aria-selected="true">InstaDP</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <div class="nav-icon"><i class="bi bi-person-circle"></i></div>
+      <button class="nav-link" id="pills-story-tab" data-bs-toggle="pill" data-bs-target="#pills-story" type="button" role="tab" aria-controls="pills-story" aria-selected="false">InstaStory</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <div class="nav-icon"><i class="bi bi-person-circle"></i></div>
+      <button class="nav-link" id="pills-reel-tab" data-bs-toggle="pill" data-bs-target="#pills-reel" type="button" role="tab" aria-controls="pills-reel" aria-selected="false">InstaReel</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <div class="nav-icon"><i class="bi bi-person-circle"></i></div>
+      <button class="nav-link" id="pills-video-tab" data-bs-toggle="pill" data-bs-target="#pills-video" type="button" role="tab" aria-controls="pills-video" aria-selected="false">InstaVideo</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <div class="nav-icon"><i class="bi bi-person-circle"></i></div>
+      <button class="nav-link" id="pills-photo-tab" data-bs-toggle="pill" data-bs-target="#pills-photo" type="button" role="tab" aria-controls="pills-photo" aria-selected="false">InstaPhoto</button>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active tool-box" id="pills-dp" role="tabpanel" aria-labelledby="pills-dp-tab">
+      <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </form>
+      </nav>
+    </div>
+    <div class="tab-pane fade tool-box" id="pills-story" role="tabpanel" aria-labelledby="pills-story-tab">
+      <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </form>
+      </nav>
+    </div>
+    <div class="tab-pane fade tool-box" id="pills-reel" role="tabpanel" aria-labelledby="pills-reel-tab">
+      <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"><i class="bi bi-link"></i></span>
+            <input type="text" class="form-control" placeholder="Paste Reel URL and Press Enter" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </form>
+      </nav>
+    </div>
+    <div class="tab-pane fade tool-box" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
+      <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"><i class="bi bi-link"></i></span>
+            <input type="text" class="form-control" placeholder="Paste Video URL and Press Enter" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </form>
+      </nav>
+    </div>
+    <div class="tab-pane fade tool-box" id="pills-photo" role="tabpanel" aria-labelledby="pills-photo-tab">
+      <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid">
+          <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"><i class="bi bi-link"></i></span>
+            <input type="text" class="form-control" placeholder="Paste Photo URL and Press Enter" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </form>
+      </nav>
+    </div>
+  </div>
 </section>
 <!-- End Insta DP Section -->
 
@@ -234,15 +307,15 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
   </body>
 </html>

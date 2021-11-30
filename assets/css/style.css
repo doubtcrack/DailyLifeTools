@@ -672,3 +672,109 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+
+/* --------------*** Tools Page 
+***------------------------------------------------ */
+
+/* -------Tabs Buttons --------- */
+#pills-tab{
+  margin: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav-item{
+  display: flex;
+}
+
+.nav-icon{
+  background: #2ff3e0;
+  padding: 5px 15px;
+  border-radius: 5px 0 0 5px;
+  color: rgb(255, 255, 255);
+  margin-right: -2%;
+}
+
+#tools li{
+  background: #F7F5F6;
+  margin: 0 4px;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+
+.nav-link{
+  color: rgb(118, 117, 117);
+  z-index: 2;
+}
+.nav-pills .nav-link.active{
+  background: #2ff3e0;
+}
+
+/* -------Tabs Data --------- */
+
+.tool-box{
+  margin: 5% 15%;
+  padding: 50px 100px;
+  border-radius: 7px;
+  background: #FEFDFE;
+}
+
+.container-fluid{
+  background: #FEFDFE;
+  border-width: 0;
+}
+
+@media (max-width: 1010px) {
+  /* -------Tabs Buttons --------- */
+  #pills-tab{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-icon{
+    background: #2ff3e0;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    color: rgb(255, 255, 255);
+    margin-right: -2%;
+  }
+  #tools li{
+    background: #F7F5F6;
+    margin: 0;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+
+  /* -------Tabs Data --------- */
+  .tool-box{
+    margin: 0;
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  /* -------Tabs Buttons --------- */
+  .nav-icon{
+    display: none;
+  }
+  #tools li{
+    background: #F7F5F6;
+    margin: 0;
+    border-radius: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* -------Tabs Buttons --------- */
+  .nav-icon{
+    display: none;
+  }
+  .nav-pills .nav-link {
+    font-size: 12px;
+  }
+}
